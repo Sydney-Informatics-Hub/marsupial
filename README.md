@@ -2,7 +2,7 @@
 
 Lightning fast AI animal detection and identification models. Try the [live demo on Gradio](https://huggingface.co/spaces/hlydecker/marsupial).
 
-<img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="200"/>
+<img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="500"/>
 
 ### Interactive Workflow (Google Colab)
 
