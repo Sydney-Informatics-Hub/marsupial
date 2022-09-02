@@ -1,6 +1,6 @@
 # marsupial
 
-Lightning fast AI animal detection and identification models.
+Lightning fast AI animal detection and identification models. Try the [live demo on Gradio](https://huggingface.co/spaces/hlydecker/marsupial)
 
 ![Cyborg Koala](content/DALLE2_Cyborg_Koala.png)
 
