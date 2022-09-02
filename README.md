@@ -1,6 +1,6 @@
 # marsupial
 
-Lightning fast AI animal detection and identification models.
+Detect and identify animals in camera traps, up to 1370 times faster than manually, using the power of AI.
 
 <img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="500"/>
 
