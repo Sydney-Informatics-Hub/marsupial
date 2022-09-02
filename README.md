@@ -12,13 +12,14 @@ Camera traps take motion-triggered pictures of animals in their natural environm
 ## The Solution: Marsupial
 
 Automate! Computer-vision object detection has come a long way in the recent past. We have trained a state-of-the-art object detection model on the WildCount data set  - which includes 157 species across 252 sites and 8 years, in 2.16 million labelled images - with the following preliminary results on held-out validation data:
-• The 33 most common species are correctly identified with 94% precision and 93% recall
-• The 71 most common species are correctly identified with 88% precision and 84% recall
-• Correctly detecting presence/absence of an animal in an image with 93% precision and 92% recall. 
+
+- The 33 most common species are correctly identified with 94% precision and 93% recall
+- The 71 most common species are correctly identified with 88% precision and 84% recall
+- Correctly detecting presence/absence of an animal in an image with 93% precision and 92% recall. 
 
 And the solution is really fast. It can label:
-• 12 thousand images per hour on a laptop (CPU), or 
-• 300 thousand images per hour on a standard cloud-provider GPU solution – costs around $5/hr - so it would take 7 hours to relabel the entire 2.16 million labelled images in the WildCount data set.
+- 12 thousand images per hour on a laptop (CPU), or 
+- 300 thousand images per hour on a standard cloud-provider GPU solution – costs around $5/hr - so it would take 7 hours to relabel the entire 2.16 million labelled images in the WildCount data set.
 
 
 ### Interactive Workflow (Google Colab)
