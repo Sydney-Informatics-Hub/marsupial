@@ -1,5 +1,5 @@
 # marsupial
-Lightning fast animal detection and identification models.
+Lightning fast AI animal detection and identification models.
 
 
 ### Interactive Workflow (Google Colab)
