@@ -4,7 +4,7 @@ Lightning fast animal detection and identification models.
 
 ### Interactive Workflow (Google Colab)
 
-For a detailed interactive demonstration of the workflow, check out the [Google Colab](https://colab.research.google.com/drive/18mHO0lgT4W8Mzf6Nu0Kp5kQuByhWJ3N6?usp=sharing) jupyter notebook. 
+For a detailed interactive demonstration of the workflow, check out the [Google Colab](https://colab.research.google.com/drive/1YQ1ck-3HQKToAZ5DwQKy5xamDsck7KTL?usp=sharing) jupyter notebook. 
 
 ### Basic Instructions (MacOS/Linux)
 
