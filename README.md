@@ -21,6 +21,17 @@ And the solution is really fast. It can label:
 - 12 thousand images per hour on a laptop (CPU), or 
 - 300 thousand images per hour on a standard cloud-provider GPU solution – costs around $5/hr - so it would take 7 hours to relabel the entire 2.16 million labelled images in the WildCount data set.
 
+## Current Models
+
+Marsupial is not just one model, we have several. These can be used individually, or chained together in a multi stage detetion system.
+
+- marsupial_detector: This model is a pure animal detector, and simply finds any animal in an image.
+- marsupial_16s: This model can identify 16 species of animal, with extremely high precision and recall.
+- marsupial_33s: This model can identify 33 species, with very high precision and recall.
+- marsupial_41s: This model can identify 41 species, and is a great balance between pure performance and detailed predictions.
+- marsupial_72s: This model can identify 72 species, and is our most detailed predictor while still delivering stare of the art performance.
+
+We are also developing several more detailed models, and plan to develop a multi stage model that can move through taxonomic groups to provide even better performance.
 
 ### Interactive Workflow (Google Colab)
 
