@@ -2,6 +2,7 @@
 
 Lightning fast AI animal detection and identification models.
 
+![Cyborg Koala](content/DALLE2_Cyborg_Koala.png)
 
 ### Interactive Workflow (Google Colab)
 
