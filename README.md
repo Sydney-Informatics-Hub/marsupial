@@ -1,8 +1,37 @@
 # marsupial
 
-Lightning fast AI animal detection and identification models. Try the [live demo on Gradio](https://huggingface.co/spaces/hlydecker/marsupial).
+Detect and identify animals in camera traps, up to 1370 times faster than manually, using the power of AI.
 
-![Cyborg Koala](content/DALLE2_Cyborg_Koala.png)
+<img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="500"/>
+
+
+## The Problem:
+
+Camera traps take motion-triggered pictures of animals in their natural environment, and are the most cost-effective, non-invasive method of monitoring wildlife species. However, after collecting the images, a significant amount of time is spent labelling the species which are present in each image. It is estimated that single-species image labelling can be done at 450 images/hour by experts and around half that rate for citizen scientists  which would equate to ~4 person-years per million labelled images. For example – in the WildCount data set we have used for training, 6 years of data (2.16 million labelled images) equates to 9600 hours, or 8 person-years to label. 
+
+## The Solution: Marsupial
+
+Automate! Computer-vision object detection has come a long way in the recent past. We have trained a state-of-the-art object detection model on the WildCount data set  - which includes 157 species across 252 sites and 8 years, in 2.16 million labelled images - with the following preliminary results on held-out validation data:
+
+- The 33 most common species are correctly identified with 94% precision and 93% recall
+- The 71 most common species are correctly identified with 88% precision and 84% recall
+- Correctly detecting presence/absence of an animal in an image with 93% precision and 92% recall. 
+
+And the solution is really fast. It can label:
+- 12 thousand images per hour on a laptop (CPU), or 
+- 300 thousand images per hour on a standard cloud-provider GPU solution – costs around $5/hr - so it would take 7 hours to relabel the entire 2.16 million labelled images in the WildCount data set.
+
+## Current Models
+
+Marsupial is not just one model, we have several. These can be used individually, or chained together in a multi stage detetion system.
+
+- marsupial_detector: This model is a pure animal detector, and simply finds any animal in an image.
+- marsupial_16s: This model can identify 16 species of animal, with extremely high precision and recall.
+- marsupial_33s: This model can identify 33 species, with very high precision and recall.
+- marsupial_41s: This model can identify 41 species, and is a great balance between pure performance and detailed predictions.
+- marsupial_72s: This model can identify 72 species, and is our most detailed predictor while still delivering stare of the art performance.
+
+We are also developing several more detailed models, and plan to develop a multi stage model that can move through taxonomic groups to provide even better performance.
 
 ### Interactive Workflow (Google Colab)
 
