@@ -1,6 +1,7 @@
 # marsupial
 
 Detect and identify animals in camera traps, up to 1370 times faster than manually, using the power of AI.
+Try the [live demo](https://huggingface.co/spaces/hlydecker/marsupial)!
 
 <img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="500"/>
 
@@ -32,6 +33,12 @@ Marsupial is not just one model, we have several. These can be used individually
 - marsupial_72s: This model can identify 72 species, and is our most detailed predictor while still delivering stare of the art performance.
 
 We are also developing several more detailed models, and plan to develop a multi stage model that can move through taxonomic groups to provide even better performance.
+
+## Limitations
+
+Marsupial, like any model, will perform best on data similar to what it was trained on. The NSW National Parks Wildcount dataset is composed of images from a large area of New South Wales, Australia, and it is likely that our models will peform well on data collected from similar areas in Queensland or Victoria, although there may be differences in species. Marsupial is not able to predict any species that it was not trained on, and will either attempt to classify unseen species as one it knows, or simply give up. 
+
+Smaller marsupials and rodents are difficult. They typically occupy a very small percentage of the image, and often move quickly, leading to blurry and less distinct images.
 
 ### Interactive Workflow (Google Colab)
 
