@@ -40,6 +40,10 @@ Marsupial, like any model, will perform best on data similar to what it was trai
 
 Smaller marsupials and rodents are difficult. They typically occupy a very small percentage of the image, and often move quickly, leading to blurry and less distinct images.
 
+## How it was made
+
+At its core, marsupial is powered by 
+
 ### Interactive Workflow (Google Colab)
 
 For a detailed interactive demonstration of the workflow, check out the [Google Colab](https://colab.research.google.com/drive/1YQ1ck-3HQKToAZ5DwQKy5xamDsck7KTL?usp=sharing) jupyter notebook. 
