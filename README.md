@@ -1,4 +1,4 @@
-# marsupial
+# [marsupial.ai](http://marsupial.ai)
 
 Detect and identify animals in camera traps, up to 1370 times faster than manually, using the power of AI.
 Try the [live demo](https://huggingface.co/spaces/hlydecker/marsupial)!
