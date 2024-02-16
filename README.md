@@ -63,7 +63,7 @@ conda activate marsupial
 2. Install requirements.
 
 ```bash
-pip install gradio torch pandas numpy torchvision wandb jupyterlab kaggle
+pip install gradio torch pandas numpy torchvision wandb jupyterlab kaggle opencv-python seaborn
 ```
 
 3. Train model
