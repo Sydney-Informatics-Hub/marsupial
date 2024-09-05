@@ -1,4 +1,4 @@
-# Marsupial - AI native animal detection in Australian camera trap images
+# Marsupial - AI animal detection in Australian camera trap images
 
 Detect and identify animals in camera traps, up to 1370 times faster than manually, using the power of AI.
 Try the [live demo](https://huggingface.co/spaces/hlydecker/marsupial)!
@@ -21,6 +21,10 @@ And the solution is really fast. It can label:
 - 12 thousand images per hour on a laptop (CPU), or 
 - 300 thousand images per hour on a standard cloud-provider GPU solution – costs around $5/hr - so it would take 7 hours to relabel the entire 2.16 million labelled images in the WildCount data set.
 
+## Examples
+
+![echidna_detected](https://github.com/user-attachments/assets/79c5f0ff-43b4-4e04-91a3-6e9689cfe074)![koala_crop](https://github.com/user-attachments/assets/7071596f-3ab0-4b0b-9e60-fbfb2b0751e9)![pademelon_crop](https://github.com/user-attachments/assets/edd0d20d-b71b-48dc-8abb-19a071bab9b0)![quoll_crop](https://github.com/user-attachments/assets/f2fd5f15-dab8-4ee2-8981-d5377c5a8e38)![wombats_detected](https://github.com/user-attachments/assets/d7e489e6-cb72-40ac-b813-83f80bb9389d)![goats](https://github.com/user-attachments/assets/7ee7d58d-ce0f-41e0-8bec-d4939e2560ce)![cat](https://github.com/user-attachments/assets/37360450-1241-478b-8e0f-e155038c0958)![dingo_crop](https://github.com/user-attachments/assets/d154fdb2-357f-40bd-b31f-c764d53b26f2)
+
 ## Current Models
 
 Marsupial is not just one model, we have several. These can be used individually, or chained together in a multi stage detetion system.
@@ -41,7 +45,7 @@ Smaller marsupials and rodents are difficult. They typically occupy a very small
 
 ## How it was made
 
-At its core, marsupial is powered by 
+At its core, marsupial is powered by yolov5 Image detection algorithm.
 
 ### Interactive Workflow (Google Colab)
 
