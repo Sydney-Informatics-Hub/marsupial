@@ -1,10 +1,9 @@
-# [marsupial.ai](http://marsupial.ai)
+# Marsupial - AI native animal detection in Australian camera trap images
 
 Detect and identify animals in camera traps, up to 1370 times faster than manually, using the power of AI.
 Try the [live demo](https://huggingface.co/spaces/hlydecker/marsupial)!
 
-<img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="500"/>
-
+https://github.com/user-attachments/assets/9d5f9ddd-045a-4f7b-9ce3-5a67d48f8243
 
 ## The Problem:
 
@@ -99,3 +98,5 @@ An object detection model was then fine tuned on this dataset. I used the Python
 Prototyping was done in a Jupyter Notebook on a Google Colab Free Tier GPU Virtual Machine equipped with an NVIDIA T4 GPU. Based on prototype performance, a fulle 300 epoch training with a batch size of 16 would take approximately 5 hours and 15 minutes. This is well within the Google Colab Free Tier GPU usage limitations.
 
 The final model was trained on the University of Sydney's Artemis high performance computer, using one NVIDIA V100-SXM2-16GB GPU, 36 Intel Xeon Gold 6140 2.30GHz CPU cores, and 64 GB of RAM mounted in a Dell EMC PowerEdge C4140 server. Training stopped early after 3 hours and 34 minutes, as model performance had peaked at epoch 44 and had not improved for 100 epochs. Model and system performance were monitored and assessed using Weights & Biases.
+
+<img src="content/DALLE2_Cyborg_Koala.png" alt="AI art of a cyborg koala" width="500"/>
